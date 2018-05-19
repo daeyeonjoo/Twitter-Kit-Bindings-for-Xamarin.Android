@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter-Binding", "Twitter-Binding\Twitter-Binding.csproj", "{73369E06-4710-4274-BED9-B87DB6138FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter-Composer-Binding", "Twitter-Composer-Binding\Twitter-Composer-Binding.csproj", "{FA29D0A2-6728-46F8-940A-FC82DBF2DF0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter-Core-Binding", "Twitter-Core-Binding\Twitter-Core-Binding.csproj", "{86475786-EC7C-4FA8-A085-363FD2C9F97A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter-UI-Binding", "Twitter-UI-Binding\Twitter-UI-Binding.csproj", "{5062549C-F667-4406-BBC2-5810F6E76081}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73369E06-4710-4274-BED9-B87DB6138FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73369E06-4710-4274-BED9-B87DB6138FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73369E06-4710-4274-BED9-B87DB6138FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73369E06-4710-4274-BED9-B87DB6138FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA29D0A2-6728-46F8-940A-FC82DBF2DF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA29D0A2-6728-46F8-940A-FC82DBF2DF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA29D0A2-6728-46F8-940A-FC82DBF2DF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA29D0A2-6728-46F8-940A-FC82DBF2DF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86475786-EC7C-4FA8-A085-363FD2C9F97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86475786-EC7C-4FA8-A085-363FD2C9F97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86475786-EC7C-4FA8-A085-363FD2C9F97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86475786-EC7C-4FA8-A085-363FD2C9F97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5062549C-F667-4406-BBC2-5810F6E76081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5062549C-F667-4406-BBC2-5810F6E76081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5062549C-F667-4406-BBC2-5810F6E76081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5062549C-F667-4406-BBC2-5810F6E76081}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

@@ -1,0 +1,17 @@
+﻿<metadata>
+    <attr path="/api/package[@name='com.twitter.sdk.android.tweetui']/class[@name='AbstractTweetView']" name="visibility">public</attr>
+    <attr path="/api/package[@name='com.twitter.sdk.android.tweetui']/class[@name='BaseTimeline']" name="visibility">public</attr>    
+    <attr path="/api/package[@name='com.twitter.sdk.android.tweetui']/class[@name='TimelineListAdapter']" name="visibility">public</attr>
+    <attr path="/api/package[@name='com.twitter.sdk.android.tweetui']/class[@name='TimelineDelegate']" name="visibility">public</attr>
+
+    <attr path="/api/package[@name='com.twitter.sdk.android.tweetui.internal.util']/
+                       class[@name='HtmlEntities.Unescaped']/
+                       field[@name='unescaped']" name="managedName">UnescapedString</attr>
+    
+    <attr path="/api/package[@name='com.twitter.sdk.android.tweetui']/class[@name='TweetTimelineRecyclerViewAdapter.TweetViewHolder']"
+          name="visibility">public</attr>
+    
+    <attr path="/api/package[@name='com.twitter.sdk.android.tweetui']/class[@name='TweetTimelineRecyclerViewAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]"
+          name="managedReturn">Android.Support.V7.Widget.RecyclerView.ViewHolder</attr>
+   
+</metadata>
